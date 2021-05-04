@@ -1,0 +1,30 @@
+h1,h2{
+            color:white; 
+     }
+
+img{
+width: 1320px;  
+height: 500px;
+   }
+
+header,footer{
+  
+     background-color:MediumSeaGreen;
+     font: 1em Cursive;
+     text-align: center;
+     padding: 5px;
+     
+      }
+ 
+header li{     
+             display: inline;
+             background-color:black;
+             margin: 35px;
+             color: white
+         }
+
+main{
+      background-color:black;
+      text-align: center;
+    }
+
