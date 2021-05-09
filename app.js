@@ -15,16 +15,20 @@ window.location.href = 'https://jamalon.com/ar/books';
   alert('You must only choose (Arabic or English)!')
   alert('Refresh the page to start again !!')
 }*/
-
+function userPass(){
 var userPass=prompt('Please enter your password to explore the website!')
 while(userPass!=='666'){
   userPass=prompt('Wrong one! Please try again')
+ }
 }
+ userPass();
 
+function booksNum(){
 var booksNum=prompt("Enter your books number you want to see!")
 for(i=0;i<booksNum;i++){
-document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/447px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg">');
+  document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/447px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg">');
+ }
 }
-
+booksNum()
 
 
